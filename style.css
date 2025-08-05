@@ -1,0 +1,25 @@
+body{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #eee;
+    font-family: Arial;
+}
+.weather{
+	background: #fff;
+	padding: 20px;
+	border: 1px solid deepskyblue;
+	border-radius: 5px;
+}
+.weather input,button{
+    background: skyblue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+.error{
+    color: red;
+}
